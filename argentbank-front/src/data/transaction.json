@@ -1,0 +1,20 @@
+[
+        {
+                "id": 1,
+                "nom": "Checking (x8349)",
+                "price": "2.082.79",
+                "description": "Available "
+        },
+        {
+                "id": 2,
+                "nom": "Savings (x6712)",
+                "price": "10,928.42",
+                "description": "Available "
+        },
+        {
+                "id": 3,
+                "nom": "Credit Card (x8349)",
+                "price": "184.30",
+                "description": "Current  "
+        }
+]

@@ -1,0 +1,115 @@
+.account {
+        display: flex;
+        align-items: center;
+        border: 1px solid $black;
+        background-color: $white;
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        text-align: left;
+        margin-bottom: 2rem;
+
+        @media (min-width: 720px) {
+                flex-direction: row;
+        }
+
+        &-amount {
+                margin: 0;
+                font-size: 2.5rem;
+                font-weight: bold;
+
+                &-description {
+                        margin: 0;
+                }
+        }
+
+        &-title {
+                margin: 0;
+                padding: 0;
+                font-size: 1rem;
+                font-weight: normal;
+        }
+
+        &-content-wrapper {
+                width: 100%;
+
+
+                &.btn {
+                        .transaction-button {
+                                display: block;
+                                width: 200px;
+                                padding: 8px;
+                                font-size: 1.1rem;
+                                font-weight: bold;
+                                border-color: $green;
+                                background-color: $green;
+                                color: $white;
+                                float: right
+                        }
+                }
+        }
+}
+
+.edit-button {
+        border-color: $green;
+        background-color: $green;
+        color: $white;
+        font-weight: bold;
+        padding: 10px;
+}
+
+.header {
+        color: $white;
+        margin-bottom: 2rem;
+}
+
+/*
+.transaction-button {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        border-color: $green;
+        background-color: $green;
+        color: $white;
+
+        @media (min-width: $vertical) {
+                width: 200px;
+        }
+}*/
+
+
+.editor {
+        form {
+                div {
+                        &.input {
+                                div {
+                                        &.input-wrapper {
+                                                display: flex;
+                                                justify-content: center;
+                                                flex-direction: row;
+                                                flex-wrap: nowrap;
+                                                gap: 15px;
+                                                align-items: center;
+                                        }
+                                }
+                        }
+
+                        &.btn {
+                                display: flex;
+                                justify-content: center;
+                                gap: 20px;
+
+                                button {
+                                        &.edit-button {
+                                                width: 100px;
+                                        }
+                                }
+                        }
+                }
+        }
+}

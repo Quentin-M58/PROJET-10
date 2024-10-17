@@ -1,0 +1,32 @@
+main {
+        &.Errorcontent {
+                background-color: black;
+                display: grid;
+                gap: 50px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+
+                h1,
+                h2,
+                h3,
+                a {
+                        margin: 0;
+                }
+
+                h1 {
+                        color: #42b983;
+                        font-size: 5rem;
+                }
+
+                h2 {
+                        color: #005733;
+                        font-size: 2.5rem;
+                }
+
+                h3,
+                a {
+                        color: white;
+                        font-size: 1rem;
+                }
+        }
+}
