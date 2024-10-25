@@ -1,13 +1,13 @@
 <h1 align="center">
   PROJET 10<br />
   ARGENTBANK<br />
-  <img alt="Static Badge"
+  <img alt="Valider"
        src="https://img.shields.io/badge/Valider-green?style=for-the-badge"><br />
-  <img alt="Static Badge"
+  <img alt="REDUX"
        src="https://img.shields.io/badge/REDUX-violet?style=for-the-badge">
-       <img alt="Static Badge"
+       <img alt="SWAGGER"
        src="https://img.shields.io/badge/SWAGGER-green?style=for-the-badge"><br />
-  <img src="./logo.png">
+  <img alt="LOGO" src="./logo.png">
 </h1>
 <h2 align="center">DESCRIPTION</h2>
 <h3 style="vertical-align: middle;">Projet réalisée lors de la formation d'integrateur Web d'
@@ -30,12 +30,12 @@
   </thead>
   <tbody>
     <tr>
-      <th style="text-align:center;"><a href="./argentbank-front" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/ARGENTBANK--front-blue?style=for-the-badge"></a>
+      <th style="text-align:center;"><a href="./argentbank-front" target="_blank"><img alt="ARGENTBANK front-end" src="https://img.shields.io/badge/ARGENTBANK--front-blue?style=for-the-badge"></a>
     </th>
       <th style="text-align:center;">CONTIENT LE CODE FRONT-END DU SITE</th>
     </tr>
     <tr>
-      <th style="text-align:center;"><a href="./OC-ArgentBank-website-main" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/ARGENTBANK--BACK-blue?style=for-the-badge"></a>
+      <th style="text-align:center;"><a href="./OC-ArgentBank-website-main" target="_blank"><img alt="ARGENTBANK back-end" src="https://img.shields.io/badge/ARGENTBANK--BACK-blue?style=for-the-badge"></a>
     </th>
       <th style="text-align:center;">CONTIENT LE CODE BACK-END DU SITE</th>
     </tr>
